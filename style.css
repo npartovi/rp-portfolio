@@ -86,7 +86,7 @@ body {
 .design-card-image {
     width: 100%;
     height: 100%;
-    background-image: url('./assets/echonote2.png');
+    background-image: url('./assets/echonote.png');
     background-size: cover;
 }
 
