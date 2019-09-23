@@ -143,12 +143,21 @@ body {
 
 /* About me styling */
 
+.img-wrapper {
+    background-image: url('./assets/aboutme-building.png');
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+}
+
+
 .about-me-card {
     background: white;
     border-radius: 5px;
     margin-top: 20px;
     min-height: 650px;
     padding: 40px;
+    padding-bottom: 0px;
 }
 
 .about-me-paragraph h1 {
@@ -225,6 +234,7 @@ body {
 .button-container {
     display: flex;
     justify-content: center;
+    padding-top: 70px;
 }
 
 .button-container button {
