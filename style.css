@@ -83,7 +83,14 @@ body {
     padding:0px;
 }
 
-.design-card-image {
+.tango-card-image {
+    width: 100%;
+    height: 100%;
+    background-image: url('./assets/tango.png');
+    background-size: cover;
+}
+
+.echonote-card-image {
     width: 100%;
     height: 100%;
     background-image: url('./assets/echonote.png');
