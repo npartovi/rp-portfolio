@@ -2,10 +2,15 @@
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(103,103,222,1) 0%, rgba(0,212,255,1) 100%);
 }
 
-/* #purple-bg {
-    background: linear-gradient(300.25deg, #6C63FF -44.5%, #5C49B3 47.09%);
-} */
+.main-container{
+    margin: 0 auto;
+    width: 940px;
+}
 
+.about {
+    margin: 0 auto;
+    width: 940px;
+}
 
 .main-intro-card{
     background:white;
@@ -40,22 +45,24 @@
 }
 
 .main-intro-text {
-    margin-top: 83px;
+    margin-top: 200px;
 }
 
 .main-intro-text h1 {
     font-family: 'Poppins', sans-serif;
-    font-size: 76px;
+    font-size: 55px;
     color: #F9B421;
     -webkit-text-stroke: 1px black;
-    text-shadow:
-       5px 5px 0 #000,
-     -1px -1px 0 #000,  
-      1px -1px 0 #000,
-      -1px 1px 0 #000,
-       1px 1px 0 #000;
+    text-shadow: 6px 5px 0px #000000, 5px 4px 0px #000000, 4px 3px 0px #000000, 3px 2px 0px #000000, 2px 1px 0px #000000, 1px 0px 0px #000000, 7px 6px 0px #000000;
     font-weight: 800;
-    letter-spacing: 3px;
+    letter-spacing: 0.075em;
+    line-height:82px;
+}
+
+.main-intro-text h2 {
+    font-weight: 600;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .main-intro-text span {
@@ -63,10 +70,9 @@
 }
 
 .main-intro-text p {
-    font-size: 26px;
+    font-size: 25px;
     font-weight: 200;
-    margin: 0 auto;
-    width: 45%;
+    padding: 0px 187px;
 }
 
 .navbar-items li {
@@ -85,24 +91,25 @@
     justify-content: space-between;
     flex-wrap: wrap;
     padding:0px;
+    margin-top: 50px;
 }
 
 .tango-card-image {
     width: 100%;
     height: 100%;
-    background-image: url('./assets/tango2.png');
+    background-image: url('./assets/tango-item.png');
     background-size: cover;
 }
 
 .echonote-card-image {
     width: 100%;
     height: 100%;
-    background-image: url('./assets/echonote.png');
+    background-image: url('./assets/echonote-item.png');
     background-size: cover;
 }
 
 .design-card-item {
-    height: 450px;
+    height: 460px;
     width: calc(1/2*100% - (1 - 1/2)*30px);
     background: white;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -113,21 +120,25 @@
     box-sizing: border-box;
 }
 
+.design-card-text {
+    height: 105px;
+}
+
+.design-card-text p {
+    font-size: 18px;
+    font-weight: 100;
+}
+
 
 .design-card-item h1 {
     font-family: 'Poppins', sans-serif;
-    font-size: 46px;
+    font-size: 35px;
     color: #F9B421;
     -webkit-text-stroke: 1px black;
-    text-shadow:
-       5px 5px 0 #000,
-     -1px -1px 0 #000,  
-      1px -1px 0 #000,
-      -1px 1px 0 #000,
-       1px 1px 0 #000;
+    text-shadow: 6px 5px 0px #000000, 5px 4px 0px #000000, 4px 3px 0px #000000, 3px 2px 0px #000000, 2px 1px 0px #000000, 1px 0px 0px #000000, 7px 6px 0px #000000;
     font-weight: 800;
-    letter-spacing: 3px;
-    margin-top: 30px;
+    letter-spacing: 0.075em;
+    margin-top: 10px;
 }
 
 .learn-more-button {
