@@ -1,6 +1,10 @@
-body {
+#blue-bg {
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(103,103,222,1) 0%, rgba(0,212,255,1) 100%);
 }
+
+/* #purple-bg {
+    background: linear-gradient(300.25deg, #6C63FF -44.5%, #5C49B3 47.09%);
+} */
 
 
 .main-intro-card{
@@ -273,4 +277,17 @@ body {
 
 .footer-container {
     margin: 50px 0px;
+}
+
+
+
+/* Tango case study page styling */
+.tango-case-study-image-container {
+    background:white;
+    margin-top:20px;
+    border-radius:5px;
+}
+
+.tango-case-study-image-container img {
+    width: 100%;
 }
