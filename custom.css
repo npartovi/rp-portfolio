@@ -1,0 +1,124 @@
+header {
+    height: 7vh;
+}
+
+
+/* navbar css */
+nav {
+    height:100%;
+}
+
+.navbar-nav a {
+    font-family: 'Poppins';
+    color: black !important;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+.nav-space {
+    margin: 0px 20px
+}
+
+
+
+/* intro css */
+
+.jumbotron{
+    background: white;
+}
+
+.red {
+    color: red;
+}
+
+.jumbotron-heading {
+    font-size: 50px;
+    line-height: 75px;
+    letter-spacing: 0.075em;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+}
+
+h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.jumbrotron-text p {
+    margin-bottom: 0px;
+}
+
+.full-width {
+    height: 93vh;
+    background-image: url('./assets/bridge.svg');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+}
+
+.intro-container {
+    margin-top: 120px;
+}
+
+.arrow-container {
+    font-size: 32px;
+}
+
+/* ABOUT ME */
+
+.about-me-container {
+    height: 500px;
+}
+
+.about-me-image {
+    height: 100%;
+}
+
+.about-me-image img {
+    height:100%;
+}
+
+.about-me-myself-text {
+    height: 537px;
+}
+
+.things-i-like-text {
+    height: 228px;
+}
+
+.contact-container {
+    height:63px;
+}
+
+/* no idea */
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+@media (min-width: 768px) {
+.bd-placeholder-img-lg {
+    font-size: 3.5rem;
+}
+}

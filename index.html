@@ -1,102 +1,126 @@
-<!DOCTYPE html>
+
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>Album example · Bootstrap</title>
+    <!-- Bootstrap core -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:600,700,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="custom.css">
+    <script src="https://kit.fontawesome.com/5a449a7207.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/5a449a7207.js" crossorigin="anonymous"></script>
-    <title>Ramin Partovi Portfolio</title>
-</head>
-<body id="blue-bg">
-   <div class="main-container container">
-        <div class="front-page-container">
-            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:600,700,800&display=swap" rel="stylesheet">
+  </head>
+  <body>
 
-                <div class="left">
-                    <a class="navbar-brand" href="#">Ramin Partovi Logo</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-                </div>
-                <div class="right">
-                    <div class="navbar-items collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto justify-content-end">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Designs
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Tango</a>
-                                <a class="dropdown-item" href="#">Echo Note</a>
-                                <a class="dropdown-item" href="#">Craigslist Redesign</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link active" href="./about.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link active" href="#">Contact</a>
-                        </li>
-                    </ul>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <a class="navbar-brand" href="index.html">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <li class="nav-item dropdown nav-space">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Designs</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Tango</a>
+                        <a class="dropdown-item" href="#">Echonote</a>
+                        <a class="dropdown-item" href="#">Craigslist</a>
                     </div>
-                </div>
-            </nav>
-            <div class="main-intro-card jumbotron p-4 p-md-5">
-                <div class="d-flex flex-column align-items-center">
-                    <div class="main-intro-text">
-                        <h1>Hi! I'm Ramin Partovi</h1>
-                        <h2>UX Designer | <span>Bay Area</span></h2>
-                        <p>I'm passionate about helping bridge the gaps between humans and technology to make an impact</p>
-                    </div>
-                        <div class="main-arrow-container">
-                            <img src="./assets/down-arrow.svg" alt="arrow">
-                        </div>
-                    </div>
+                </li>
+            <a class="nav-item nav-link nav-space" href="about.html">About</a>
+            <a class="nav-item nav-link nav-space" href="#">Contact</a>
             </div>
         </div>
-        <div class="design-page-container">
-            <ul class="designed-projects-container">
-                <li class="design-card-item">
-                    <div class="design-card-text">
-                        <h1>Tango</h1>
-                        <p>matchmaking application for musicians</p>
-                    </div>
-                    <div class="tango-card-image"></div>
-                    <div class="learn-more-button">
-                        <a href="tango.html">Learn More</a>
-                    </div>
-                </li>
-                <li class="design-card-item">
-                    <div class="design-card-text">
-                        <h1>EchoNote</h1>
-                        <p>music transcription application</p>
-                    </div>
-                    <div class="echonote-card-image"></div>
-                    <div class="learn-more-button">
-                        <a href="echonote.html">Learn More</a>
-                    </div>
-                </li>
-            </ul>
+    </nav>
+</header>
+
+<main role="main">
+  <section class="jumbotron text-center full-width">
+    <div class="container">
+        <div class="intro-container">
+            <h1 class="jumbotron-heading">Hi! I'm Ramin Partovi</h1>
+            <h2>UX Designer | <span class="red">Bay Area</span></h2>
+            <div class="jumbrotron-text">
+                <p>I'm passionate about helping bridge</p>
+                <p>the gaps between humans and</p>
+                <p>technology to make an impact</p>
+            </div>
+            <div class="arrow-container">
+                <i class="fas fa-chevron-down"></i>
+            </div>
         </div>
-        <div class="footer-container">
-            <ul class="footer-icons-list">
-                <li>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                </li>
-                <li>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                </li>
-                <li>
-                    <a href="#"><i class="fab fa-google" aria-hidden="true"></i></a>
-                </li>
-            </ul>
+    </div>
+  </section>
+
+  <div class="album py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
         </div>
-   </div>
-</body>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="text-muted">
+  <div class="container">
+    <ul>
+        <li><i class="fab fa-dribbble"></i></li>
+        <li><i class="fab fa-instagram"></i></li>
+        <li><i class="fab fa-linkedin-in"></i></li>
+        <li><i class="far fa-envelope"></i></li>
+    </ul>
+  </div>
+</footer>
 </html>
