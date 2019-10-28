@@ -80,6 +80,24 @@ p {
     font-size: 32px;
 }
 
+.card-body h2 {
+    text-align:center;
+}
+
+.card-body p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.card-body img {
+    height: 460px;
+    width: 100%;
+}
+
 /* ABOUT ME */
 
 .about-me-container {
@@ -104,6 +122,38 @@ p {
 
 .contact-container {
     height:63px;
+}
+
+/* footer */
+.footer-icons-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.footer-icons-list li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 5px;
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.footer-icons-list i {
+    background: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 43px;
+    font-size: 20px;
+    color: black;
+    margin: 0px 7px;
 }
 
 /* no idea */
