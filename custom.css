@@ -82,6 +82,34 @@ p {
 
 .card-body h2 {
     text-align:center;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+
+.yellow {
+    color: #E5A727;
+}
+
+.purple {
+    color: #5C49B3
+}
+
+.blue {
+    color: #4949F4;
+}
+
+.tango-border {
+    border: 3px solid #5C49B3
+}
+
+.echo-note-border {
+    border: 3px solid #E5A727;;
+}
+
+.craigslist-border {
+    border: 3px solid #4949F4;
 }
 
 .card-body p {
@@ -89,13 +117,27 @@ p {
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
-    line-height: 25px;
+    line-height: 20px;
     text-align: center;
 }
 
-.card-body img {
-    height: 460px;
+.card-image-container{
+    height: 350px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-image img {
+    height: 250px;
+}
+
+.boat-background {
+    background-image: url('./assets/boats.svg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: contain;
 }
 
 /* ABOUT ME */
