@@ -64,8 +64,11 @@ p {
     margin-bottom: 0px;
 }
 
-.full-width {
+.full-height {
     height: 93vh;
+}
+
+.full-height.index {
     background-image: url('./assets/bridge.svg');
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -101,15 +104,18 @@ p {
 }
 
 .tango-border {
-    border: 3px solid #5C49B3
+    border: 3px solid #5C49B3;
+    border-radius: 20px;
 }
 
 .echo-note-border {
-    border: 3px solid #E5A727;;
+    border: 3px solid #E5A727;
+    border-radius: 20px;
 }
 
 .craigslist-border {
     border: 3px solid #4949F4;
+    border-radius: 20px;
 }
 
 .card-body p {
@@ -142,19 +148,106 @@ p {
 
 /* ABOUT ME */
 
+.about {
+    position: relative;
+}
+
+.about:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.5;
+    background-image: url('./assets/aboutme-building.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+    border-bottom: 3px solid gray;
+}
+
 .about-me-container {
-    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .about-me-image {
-    height: 100%;
+    height: 340px;
+    width: 340px;
+}
+
+.about-me-myself-container {
+    margin-top: 60px;
+}
+
+.about-me-h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 37px;
+    letter-spacing: 0.075em;
+}
+
+.about-me-myself-text p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 198.18%;
+    /* or 32px */
+    letter-spacing: 0.135em;
+}
+
+.things-i-like-container {
+    margin-top: 60px;
+}
+
+.things-i-like-text li p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 198.18%;
+    /* or 32px */
+    letter-spacing: 0.135em;
+    /* list-style: none; */
+}
+
+.contact-container {
+    margin-top: 60px;
+}
+
+.contact-text p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 198.18%;
+    /* or 32px */
+    letter-spacing: 0.135em;
 }
 
 .about-me-image img {
-    height:100%;
+    border-radius: 50%;
+    width: 100%;
 }
 
-.about-me-myself-text {
+.about-me-text p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 75px;
+    letter-spacing: 0.075em;
+}
+
+/* .about-me-myself-text {
     height: 537px;
 }
 
@@ -164,7 +257,7 @@ p {
 
 .contact-container {
     height:63px;
-}
+} */
 
 /* footer */
 .footer-icons-list {
