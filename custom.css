@@ -83,12 +83,40 @@ p {
     font-size: 32px;
 }
 
+.card-image-container.tango {
+    background-image: url('./assets/guitar.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 200px;
+    margin-top: 25px; 
+}
+
+.card-image-container.echo-note {
+    background-image: url('./assets/musicnote.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 200px;
+    margin-top: 25px; 
+}
+
+.card-image-container.craigslist {
+    background-image: url('./assets/craigslist.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 200px;
+    margin-top: 25px; 
+}
+
 .card-body h2 {
     text-align:center;
     text-transform: uppercase;
     font-weight: 800;
     margin-bottom: 0px;
     margin-top: 15px;
+    font-size: 24px;
 }
 
 .yellow {
@@ -118,25 +146,25 @@ p {
     border-radius: 20px;
 }
 
+.card-body {
+    cursor: pointer;
+}
+
 .card-body p {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 20px;
     text-align: center;
 }
 
-.card-image-container{
-    height: 350px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.case-note-body {
+    min-height: 390px;
 }
 
-.card-image img {
-    height: 250px;
+.card-header-container {
+    min-height: 100px;
 }
 
 .boat-background {
@@ -146,22 +174,7 @@ p {
     background-size: contain;
 }
 
-/* ABOUT ME */
-
-.about {
-    position: relative;
-}
-
-.about:before {
-    content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    opacity: 0.5;
+.about{
     background-image: url('./assets/aboutme-building.png');
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -174,6 +187,7 @@ p {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    height: 100%;
 }
 
 .about-me-image {
@@ -306,4 +320,25 @@ p {
 .bd-placeholder-img-lg {
     font-size: 3.5rem;
 }
+}
+
+
+
+@media (min-width: 576px) { 
+
+}
+
+
+@media (min-width: 768px) { 
+
+}
+
+
+@media (min-width: 992px) { 
+
+}
+
+
+@media (min-width: 1200px) { 
+
 }
