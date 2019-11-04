@@ -340,7 +340,10 @@ p {
 
 
 @media (min-width: 992px) { 
-
+    .custom-row {
+        margin: 0 auto;
+        width: 95%;
+    }
 }
 
 
