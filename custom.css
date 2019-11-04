@@ -342,7 +342,7 @@ p {
 @media (min-width: 992px) { 
     .custom-row {
         margin: 0 auto;
-        width: 95%;
+        width: 75%;
     }
 }
 
@@ -351,5 +351,10 @@ p {
     .about-me-image {
         height: 640px;
         width: 640px;
+    }
+
+    .custom-row {
+        margin: 0 auto;
+        width: 95%;
     }
 }
