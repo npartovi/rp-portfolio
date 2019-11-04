@@ -358,3 +358,30 @@ p {
         width: 95%;
     }
 }
+
+
+
+.arrow-container {
+    cursor: pointer;
+    -webkit-animation: float-down 1s infinite alternate;
+    -moz-animation: float-down 1s infinite alternate;
+    -ms-animation: float-down 1s infinite alternate;
+    animation: float-down 1s infinite alternate;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.arrow-container a {
+    color: black;
+}
+
+@keyframes float-down {
+    0% {
+        transform: translate3d(0,2px,0);
+   }
+    100% {
+        transform: translate3d(0,-5px,0);
+   }
+  }
