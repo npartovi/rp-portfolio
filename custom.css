@@ -257,6 +257,67 @@ p {
    left: 100%;
 }
 
+.contact-container {
+    margin-bottom:100px;
+    margin-top: 100px;
+}
+
+.contact-button {
+    background: #FFA912;
+    color: black;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+    margin-top:10px;
+    padding: 10px 20px;
+    width:140px;
+    margin-bottom: 50px;
+}
+
+.contact-container i {
+    color: red;
+    font-size: 56px;
+    margin-bottom: 5px;
+}
+
+.contact-header p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 19px;
+    margin-bottom:10px;
+    padding: 0px 116px;
+}
+
+.contact-text {
+    min-height: 80px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.135em;
+}
+
+.contact-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+}
+
+.about-me-image {
+    background-image: url('./assets/aboutme.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: contain;
+    height: 260px;
+    margin-top: 40px;
+}
 
 
 /* footer */
@@ -315,13 +376,20 @@ p {
     }
 }
 
+@media(max-width: 991px){
+    .about-me-image {
+        height: 149px;
+    }
+}
+
+@media(max-width: 767px){
+    .about-me-image {
+        height: 111px;
+    }
+}
+
 
 @media (min-width: 1441px) { 
-    .about-me-image {
-        height: 640px;
-        width: 640px;
-    }
-
     .custom-row {
         margin: 0 auto;
         width: 95%;
