@@ -226,11 +226,12 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0px;
 }
 
 .paragraph li {
     margin: 15px 0px;
-    letter-spacing: 0px;
+    letter-spacing: 2px;
 }
 
 
@@ -259,7 +260,7 @@ p {
 
 .contact-container {
     margin-bottom:100px;
-    margin-top: 100px;
+    margin-top: 30px;
 }
 
 .contact-button {
@@ -324,7 +325,7 @@ p {
 }
 
 .alittle {
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 
 /* footer */
@@ -333,18 +334,11 @@ p {
     flex-direction: row;
     justify-content: center;
     list-style-type: none;
+    padding: 0px;
 }
 
 .footer-icons-list li {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0px 5px;
-    height: 50px;
-    width: 50px;
-    border: 1px solid black;
-    border-radius: 50%;
-    padding: 10px;
+   
 }
 
 .footer-icons-list i {
@@ -354,7 +348,7 @@ p {
     border-radius: 50%;
     text-align: center;
     line-height: 43px;
-    font-size: 20px;
+    font-size: 30px;
     color: black;
     margin: 0px 7px;
 }
