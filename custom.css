@@ -177,46 +177,20 @@ p {
     background-size: contain;
 }
 
-.about-background-img{
+.about-me-background{
     background-image: url('./assets/aboutme-building.png');
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: contain;
     border-bottom: 3px solid gray;
     width:100%;
-    height: 100%;
-    z-index: -1;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    height: 286px;
     opacity: .6;
 }
+/* about me section */
 
-.about-me-container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    z-index: 1;
-    margin-top: 50px;
-}
-
-.about-me-text {
-    margin-top: 30px;
-}
-
-.about-me-image {
-    height: 390px;
-    width: 390px;
-}
-
-.about-me-myself-container {
-    margin-top: 60px;
-}
-
-.about-me-h1 {
+.about-me-header-text {
+    color: red;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -225,70 +199,65 @@ p {
     letter-spacing: 0.075em;
 }
 
-.about-me-myself-text p {
+.about-me-header-container {
+    margin-top: 30px;
+}
+
+.about-myself-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.paragraph {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
-    line-height: 198.18%;
-    /* or 32px */
-    letter-spacing: 0.135em;
+    line-height: 32px;
+    letter-spacing: 0.100em;
 }
 
-.things-i-like-container {
-    margin-top: 60px;
+.paragraph ul {
+    list-style-type: none;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.things-i-like-text li p {
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 198.18%;
-    /* or 32px */
-    letter-spacing: 0.135em;
-    /* list-style: none; */
+.paragraph li {
+    margin: 15px 0px;
 }
 
-.contact-container {
-    margin-top: 60px;
+
+.about-me-header-text{
+    overflow: hidden;
+    text-align: center;
+}
+.about-me-header-text > span{
+   position: relative;
+   display: inline-block;
+}
+.about-me-header-text > span:before, .about-me-header-text > span:after{
+   content: '';
+   position: absolute;
+   top: 50%;
+   border-bottom: 2px solid black;
+   width: 229px; /* half of limiter*/
+   margin: 0 20px;
+}
+.about-me-header-text > span:before{
+   right: 100%;
+}
+.about-me-header-text > span:after{
+   left: 100%;
 }
 
-.contact-text p {
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 198.18%;
-    /* or 32px */
-    letter-spacing: 0.135em;
-}
 
-.about-me-image img {
-    border-radius: 50%;
-    width: 100%;
-}
-
-.about-me-text p {
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 50px;
-    line-height: 75px;
-    letter-spacing: 0.075em;
-}
-
-/* .about-me-myself-text {
-    height: 537px;
-}
-
-.things-i-like-text {
-    height: 228px;
-}
-
-.contact-container {
-    height:63px;
-} */
 
 /* footer */
 .footer-icons-list {
@@ -360,7 +329,7 @@ p {
 }
 
 
-
+/* arrow animation */
 .arrow-container {
     cursor: pointer;
     -webkit-animation: float-down 1s infinite alternate;
@@ -387,6 +356,7 @@ html {
 }
 
 
+/* bird-animation */
 .bird {
     background-image: url(http://www.iamramraj.com/demo/Flying_birds_CSS_animation_examples/bird-cells.svg);
     background-size: auto 100%;
