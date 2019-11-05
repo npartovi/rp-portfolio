@@ -398,6 +398,12 @@ p {
     }
 }
 
+@media(min-width: 1200px){
+    .about-me-background {
+        background-size: cover;
+    }
+}
+
 
 /* arrow animation */
 .arrow-container {
