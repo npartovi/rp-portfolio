@@ -306,9 +306,12 @@ p {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 16px;
     line-height: 14px;
     margin-top: 15px;
+}
+
+.contact-text p {
+    font-size: 16px;
 }
 
 .contact-card {
@@ -339,6 +342,47 @@ p {
 
 /* footer */
 
+.next-project-header {
+    height: 100px;
+    margin-bottom: 30px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.next-project-header h1 {
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    font-size: 38px;
+    font-weight: 400;
+}
+
+.next-project-header a {
+    text-decoration: none;
+} 
+
+
+
+.next-project-header.echo-note-header h1 {
+    color: black;
+}
+
+.next-project-header.tango-header h1 {
+    color: white;
+}
+
+
+.echo-note-header {
+    background: #FFA912;
+}
+
+.tango-header {
+    background: #5C49B3;
+}
+
+
+
 .background-container {
     margin-bottom: 40px;
 }
@@ -353,10 +397,6 @@ a.dropdown-item {
     justify-content: center;
     list-style-type: none;
     padding: 0px;
-}
-
-.footer-icons-list li {
-   
 }
 
 .footer-icons-list i {
