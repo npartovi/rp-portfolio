@@ -440,6 +440,13 @@ a.dropdown-item {
     .intro-container h2 {
         font-size: 18px;
     }
+
+    .full-height.index {
+        background-image: url(./assets/bigbuilding.svg);
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        background-size: contain;
+    }
 }
 
 @media (max-width: 576px) { 
