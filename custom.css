@@ -446,6 +446,7 @@ a.dropdown-item {
         background-repeat: no-repeat;
         background-position: center bottom;
         background-size: contain;
+        border-bottom: 3px solid lightgray;
     }
 }
 
