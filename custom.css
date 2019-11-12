@@ -426,6 +426,22 @@ a.dropdown-item {
     width: 100%;
 }
 
+@media(max-width: 476px) {
+    .jumbotron-heading {
+        font-size: 25px !important;
+        line-height: 40px;
+        margin-bottom: 0px;
+    }
+
+    .jumbrotron-text p {
+        font-size: 18px;
+    }
+
+    .intro-container h2 {
+        font-size: 26px;
+    }
+}
+
 @media (max-width: 576px) { 
     .jumbotron-heading {
         font-size: 35px;
@@ -433,6 +449,10 @@ a.dropdown-item {
 
     .about-me-header-text {
         font-size: 18px;
+    }
+
+    .intro-container {
+        margin-top: 160px;
     }
 }
 
@@ -443,8 +463,6 @@ a.dropdown-item {
     }
 
     .custom-nav {
-        margin: 0 auto;
-        width: 80%;
         margin-top: 20px;
     }
 
