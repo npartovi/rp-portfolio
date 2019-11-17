@@ -1,8 +1,3 @@
-header {
-    height: 7vh;
-}
-
-
 /* navbar css */
 nav {
     height:100%;
@@ -17,6 +12,10 @@ nav {
     line-height: 24px;
     letter-spacing: 0.12em;
     text-transform: uppercase;
+}
+
+.navbar-nav {
+    text-align: end;
 }
 
 .nav-space {
@@ -66,7 +65,7 @@ p {
 }
 
 .full-height {
-    height: 91vh;
+    height: 88vh;
 }
 
 .full-height.index {
@@ -533,8 +532,7 @@ a.dropdown-item {
     .main-logo {
         height: 50px;
         width: 50px;
-    }
-    
+    }    
 }
 
 @media(max-width: 991px){
@@ -544,6 +542,14 @@ a.dropdown-item {
 
     .contact-text p {
         font-size: 15px;
+    }
+
+    .nav-item:hover {
+        border-bottom: none;
+    }
+
+    .nav-item {
+        z-index: 2;
     }
 }
 
