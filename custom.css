@@ -404,6 +404,7 @@ p {
     justify-content: center;
     display: flex;
     flex-direction: column;
+    margin-top: 40px;
 }
 
 .next-project-header h1 {
@@ -479,6 +480,33 @@ a.dropdown-item {
 
 .tango-case-study-image-container img {
     width: 100%;
+}
+
+.demo-header p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 28px;
+    margin-bottom:0px;
+    margin-left: 10px;
+}
+
+.demo-header {
+    border-left: 12px solid #FA6400;
+    margin-bottom: 40px;
+}
+
+.demo-text {
+    margin-bottom: 40px;
+}
+
+.demo-button {
+    margin-bottom: 120px;
+}
+
+.purp-color {
+    border-left: 12px solid #E82C82;
 }
 
 @media(max-width: 476px) {
