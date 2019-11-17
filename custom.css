@@ -153,7 +153,7 @@ p {
 .card-body p {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 16px;
     line-height: 20px;
     text-align: center;
@@ -306,7 +306,16 @@ p {
     background: #5C49B3;
 }
 
+.tango-button-card:hover {
+    background: #5C49B3;
+}
+
 .echonote-button-card {
+    background: #FFA912;
+    color: black;
+}
+
+.echonote-button-card:hover {
     background: #FFA912;
     color: black;
 }
@@ -315,8 +324,21 @@ p {
     background: #4949F4;
 }
 
-.card {
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23) !important;
+.craigslist-button-card:hover {
+    background: #4949F4;
+}
+
+
+.card.tango-border {
+    box-shadow: 0 3px 6px rgba(92,73,179,0.30), 0 3px 6px rgba(92,73,179,0.30) !important;
+}
+
+.echo-note-border {
+    box-shadow: 0 3px 6px rgba(229,167,39,0.30), 0 3px 6px rgba(229,167,39,0.30) !important;
+}
+
+.craigslist-border {
+    box-shadow: 0 3px 6px rgba(73,73,244,0.30), 0 3px 6px rgba(73,73,244,0.30) !important;
 }
 
 .contact-container i {
