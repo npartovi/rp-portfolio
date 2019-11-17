@@ -120,15 +120,15 @@ p {
 }
 
 .yellow {
-    color: #E5A727;
+    color: #E5A727 !important;
 }
 
 .purple {
-    color: #5C49B3
+    color: #5C49B3 !important;
 }
 
 .blue {
-    color: #4949F4;
+    color: #4949F4 !important;
 }
 
 .tango-border {
