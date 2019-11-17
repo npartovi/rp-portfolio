@@ -116,7 +116,6 @@ p {
     text-transform: uppercase;
     font-weight: 800;
     margin-bottom: 0px;
-    margin-top: 15px;
     font-size: 24px;
 }
 
@@ -165,7 +164,13 @@ p {
 }
 
 .card-header-container {
-    min-height: 100px;
+    min-height: 70px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
 }
 
 .boat-background {
@@ -283,6 +288,35 @@ p {
     padding: 10px 20px;
     width:140px;
     margin-bottom: 50px;
+}
+
+.index-button {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+    margin-top:10px;
+    padding: 10px 20px;
+    width:140px;
+    border: 0px;
+}
+
+.tango-button-card {
+    background: #5C49B3;
+}
+
+.echonote-button-card {
+    background: #FFA912;
+    color: black;
+}
+
+.craigslist-button-card {
+    background: #4949F4;
+}
+
+.card {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23) !important;
 }
 
 .contact-container i {
