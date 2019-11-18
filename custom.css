@@ -509,6 +509,17 @@ a.dropdown-item {
     border-left: 12px solid #E82C82;
 }
 
+.fa-arrow-circle-up {
+    font-size: 42px;
+    color: black;
+}
+
+.up-arrow-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
 @media(max-width: 476px) {
     .jumbotron-heading {
         font-size: 25px !important;
